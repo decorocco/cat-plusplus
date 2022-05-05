@@ -1,0 +1,37 @@
++      : pwus
+-      : mwinus
+*      : twimes
+/      : dwivided
+.      : nyaddition
+;      : nya
+{      : UwU
+}      : UMU
+(      : RAWR
+)      : XD
+=      : nyassign
+==     : nyequals
+<      : smyaller
+>      : biggew
+&&     : nyand
+||     : nyor
+if     : nyif
+else   : nyelse
+while  : for nyow
+printf : nyoutput / showo
+scanf  : nyinput
+int    : nyint
+str    : stwing
+return : >///<
+
+nyint main UwU
+    nyint a weceives 5 nya
+    nyint b weceives nyinput nya
+    nyif RAWR a nyequals b XD UwU
+        b weceives b pwus 10 nya
+    UMU
+    for nyow RAWR b biggew 0 XD UwU
+        nyoutput RAWR b XD nya
+        b weceives b mwinus 1 nya
+    UMU
+    >///< a nya
+UMU
