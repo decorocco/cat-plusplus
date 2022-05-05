@@ -1,1 +1,20 @@
-git 
+PROGRAM = {DECLAREFUNCTION} ;
+DECLAREFUNCTION = (TYPE, IDENTIFIER, "RAWR", TYPE, { IDENTIFIER, { "," } }, "XD", STATEMENT);
+CALLFUNCTION = IDENTIFIER, "RAWR", { IDENTIFIER } , {"," , IDENTIFIER } , "XD", nya ;
+TYPE = ( "stwing" | "nyint" ) ; 
+BLOCK = "UwU" , { STATEMENT }, "UMU" ;
+STATEMENT = ( λ | ASSIGNMENT | PRINT | BLOCK | WHILE | IF | TYPE , IDENTIFIER , { "," , IDENTIFIER }), "nya" ;
+ASSIGNMENT = IDENTIFIER, "nyassign" , EXPRESSION ;
+PRINT = "nyoutput", "RAWR" , EXPRESSION, "XD" ;
+EXPRESSION = TERM, { ("pwus" | "mwinus" | "nyor" | "nyaddition"), TERM } ;
+TERM = FACTOR, { ("twimes" | "dwivided" | "nyand"), FACTOR } ;
+FACTOR = NUMBER | STRING | IDENTIFIER | FUNCTIONCALL | (("pwus" | "mwinus" | "nyot") , FACTOR) | "RAWR" , RELEXPRESSION , "XD" | SCAN;
+IDENTIFIER = LETTER, { LETTER | NUMBER | "_" } ;
+RELEXPRESSION = EXPRESSION , { ("smyaller" | "biggew" | "nyequals") , EXPRESSION } ;
+WHILE = "fornyow", "RAWR", RELEXPRESSION ,"XD", STATEMENT;
+IF = "nyif", "RAWR", RELEXPRESSION ,"XD", STATEMENT, (("nyelse", STATEMENT) | λ );
+SCAN = "nyinput", "RAWR", "XD" ;
+STRING = '"', { LETTER | DIGIT }, '"' ; 
+NUMBER = DIGIT , { DIGIT } ;
+LETTER = ( a | ... | z | A | ... | Z ) ;
+DIGIT = ( 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 ) ;
