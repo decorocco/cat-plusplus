@@ -2,7 +2,8 @@
 -      : mwinus
 *      : twimes
 /      : dwivided
-.      : nyaddition
+.      : concatenyate
+!      : nyot
 ;      : nya
 {      : UwU
 }      : UMU
